@@ -1342,8 +1342,8 @@
          return {
             longname : "Shortcodes",
             author : 'Qode Interactive',
-            authorurl : 'http://www.qodethemes.com/',
-            infourl : 	'http://www.qodethemes.com/',
+            authorurl : 'https://www.qodethemes.com/',
+            infourl : 	'https://www.qodethemes.com/',
             version : "1.0"
          };
       }

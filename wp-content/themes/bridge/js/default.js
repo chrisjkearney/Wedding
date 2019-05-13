@@ -1850,7 +1850,7 @@ function initDropDownMenu(){
 	$j('.drop_down ul li.wide ul li a, .drop_down ul li.narrow ul li a').on('click',function(){
 		var $this = $j(this);
 
-		if(!$this.next('ul').length && ($this.attr('href') !== "http://#") && ($this.attr('href') !== "#") && !$this.hasClass('no_link')) {
+		if(!$this.next('ul').length && ($this.attr('href') !== "https://#") && ($this.attr('href') !== "#") && !$this.hasClass('no_link')) {
 			setTimeout(function() {
 				$this.mouseleave();
 			}, 500);
@@ -3024,12 +3024,12 @@ function initParallaxTitle(){
  Version 1.1.3
  Author: Ian Lunn
  Twitter: @IanLunn
- Author URL: http://www.ianlunn.co.uk/
- Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
+ Author URL: https://www.ianlunn.co.uk/
+ Plugin URL: https://www.ianlunn.co.uk/plugins/jquery-parallax/
 
  Dual licensed under the MIT and GPL licenses:
- http://www.opensource.org/licenses/mit-license.php
- http://www.gnu.org/licenses/gpl.html
+ https://www.opensource.org/licenses/mit-license.php
+ https://www.gnu.org/licenses/gpl.html
  */
 
 (function( $ ){
@@ -3281,7 +3281,7 @@ function initMobileMenu(){
 	
 	$j(".mobile_menu ul li > a, .q_logo a").on('click', function(){
 
-        if(($j(this).attr('href') !== "http://#") && ($j(this).attr('href') !== "#")){
+        if(($j(this).attr('href') !== "https://#") && ($j(this).attr('href') !== "#")){
             $j(".mobile_menu > ul").slideUp();
 		}
 	});
@@ -5653,7 +5653,7 @@ function initPopupMenu(){
 
         //if link has no submenu and if it's not dead, than open that link
         $j(".popup_menu ul li:not(.has_sub) a").click(function () {
-            if(($j(this).attr('href') !== "http://#") && ($j(this).attr('href') !== "#")){
+            if(($j(this).attr('href') !== "https://#") && ($j(this).attr('href') !== "#")){
                 $j('a.popup_menu').removeClass('opened');
                 $j('body').removeClass('popup_menu_opened').css('overflow','visible');
                 $j("nav.popup_menu ul.sub_menu").slideUp(200, function(){

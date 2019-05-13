@@ -114,7 +114,7 @@ if (typeof window['vc_pinterest'] !== 'function') {
         var po = document.createElement('script');
         po.type = 'text/javascript';
         po.async = true;
-        po.src = 'http://assets.pinterest.com/js/pinit.js';
+        po.src = 'https://assets.pinterest.com/js/pinit.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(po, s);
         //<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>

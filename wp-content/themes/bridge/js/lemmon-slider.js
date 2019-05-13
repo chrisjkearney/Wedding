@@ -2,7 +2,7 @@
  * Lemmon Slider - jQuery Plugin
  * Simple and lightweight slider/carousel supporting variable elements/images widths.
  *
- * Examples and documentation at: http://jquery.lemmonjuice.com/plugins/slider-variable-widths.php
+ * Examples and documentation at: https://jquery.lemmonjuice.com/plugins/slider-variable-widths.php
  *
  * Copyright (c) 2011 Jakub PelÃ¡k <jpelak@gmail.com>
  *
@@ -10,7 +10,7 @@
  * Requires: jQuery v1.4+
  *
  * Licensed under the MIT license:
- *   http://www.opensource.org/licenses/mit-license.php
+ *   https://www.opensource.org/licenses/mit-license.php
  */
 (function( $ ) {
 
