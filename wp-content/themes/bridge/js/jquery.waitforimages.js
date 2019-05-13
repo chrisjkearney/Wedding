@@ -63,7 +63,7 @@
             // CSS properties which may contain an image.
             var hasImgProperties = $.waitForImages.hasImageProperties || [];
             // To match `url()` references.
-            // Spec: http://www.w3.org/TR/CSS2/syndata.html#value-def-uri
+            // Spec: https://www.w3.org/TR/CSS2/syndata.html#value-def-uri
             var matchUrl = /url\(\s*(['"]?)(.*?)\1\s*\)/g;
 
             if (waitForAll) {

@@ -152,8 +152,8 @@ function showContactMap() {
 }
 
 var no_ajax_pages = [];
-var qode_root = 'http://chrisandchantal.com/';
-var theme_root = 'http://chrisandchantal.com/wp-content/themes/bridge/';
+var qode_root = 'https://chrisandchantal.com/';
+var theme_root = 'https://chrisandchantal.com/wp-content/themes/bridge/';
 var header_style_admin = "";
 if(typeof no_ajax_obj !== 'undefined') {
 	no_ajax_pages = no_ajax_obj.no_ajax_pages;

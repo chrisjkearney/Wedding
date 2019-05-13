@@ -838,7 +838,7 @@ $j(document).ready(function() {
 					return false;
 				}	
 					
-				if(($j(this).attr('href') !== "http://#") && ($j(this).attr('href') !== "#")){
+				if(($j(this).attr('href') !== "https://#") && ($j(this).attr('href') !== "#")){
 						disableHashChange = true;
 						
 						var url = $j(this).attr('href');
